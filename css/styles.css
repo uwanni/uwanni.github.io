@@ -11346,8 +11346,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-/*   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
- */  font-weight: 700;
+  font-weight: 700;
   
 }
 
@@ -11430,7 +11429,8 @@ html {
   background: url("../assets/img/prof.jpg") center center no-repeat; 
   background-size: cover; 
   width: 100%;
-  height: 10cm; }
+  height: 12cm; }
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
@@ -11441,7 +11441,6 @@ html {
 .masthead .masthead-avatar {
   width: 15rem;
 }
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -11454,6 +11453,38 @@ html {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+}
+
+#writer {
+  font-size: x-large;
+  text-transform: uppercase;
+}
+#graphic {
+  font-size: x-large;
+  text-transform: uppercase;
+}
+#writerd {
+  font-size: large;
+  color: #842029;
+
+}
+#graphicd {
+  font-size: large;
+  color: #842029;
+}
+
+@media (max-width:450px){
+  br.responsive{
+    display: inline-block;
+  }}
+@media (min-width: 450px){
+    br.responsive{
+      display: none;
+    }
+}
+
+#portfolio {
+  background-color: #6a1a21;
 }
 .portfolio .portfolio-item {
   cursor: pointer;
