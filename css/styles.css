@@ -11350,6 +11350,7 @@ html {
  */  font-weight: 700;
   
 }
+
 #mainNav .navbar-brand {
   color: #fff;
 }
@@ -11425,6 +11426,11 @@ html {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
+#image {
+  background: url("../assets/img/prof.jpg") center center no-repeat; 
+  background-size: cover; 
+  width: 100%;
+  height: 10cm; }
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
