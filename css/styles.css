@@ -10,7 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+/* :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -62,7 +62,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-}
+} */
 
 *,
 *::before,
@@ -4049,11 +4049,13 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
+
+
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.25 rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7805,17 +7807,6 @@ textarea.form-control-lg {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
-
-.bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -11356,8 +11347,9 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+/*   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ */  font-weight: 700;
+  
 }
 #mainNav .navbar-brand {
   color: #fff;
