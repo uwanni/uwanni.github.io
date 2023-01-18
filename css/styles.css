@@ -11484,8 +11484,9 @@ html {
 }
 
 #portfolio {
-  background-color: #6a1a21;
+  background-color: #101214;
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11494,14 +11495,16 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color:  #141619;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
